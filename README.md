@@ -16,3 +16,6 @@ The left side of the keyboard is used as inputs according to the following mappi
 
 Note: Z and Y are interchangeable to allow for the use of both QWERTY and QWERTZ keyboard layout.
 Pressing ESC will exit the emulator.
+
+## Related Exercise
+Based on my previous CHIP-8 emulator called [Ice-8](https://github.com/Icesak237/Ice8)
