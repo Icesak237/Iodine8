@@ -67,7 +67,11 @@ Console :: struct {
 // functions
 main :: proc() {
     c: Console
-    ROM_name := "Space_Invaders.ch8"
+    if len(os.args) < 2 {
+        fmt.println("Usage: iodine8 <path_to_rom>")
+        return
+    }
+    ROM_name := os.args[1]
     start_time := time.now()
     last_time := start_time
     init(&c)
