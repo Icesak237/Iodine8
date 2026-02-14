@@ -1,5 +1,5 @@
 # Iodine8
-A simple CLI CHIP-8 emulator written in Odin, designed to run directly in the terminal. Developed as a programming exercise and the first program written in Odin.
+A simple CLI CHIP-8 emulator written in Odin, designed to run directly in the terminal. Developed as a programming exercise and my first program written in Odin.
 
 ## How to use
 Once compiled provide a ROM file as an argument: 
